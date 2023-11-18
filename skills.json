@@ -1,0 +1,80 @@
+[
+    {
+      "name": "HTML5",
+      "imgSrc": "./assets/icones/file_type_html_icon_130541.png",
+      "alt": "HTML logo",
+      "class": "skills-logo html-logo",
+      "title": "HTML5"
+    },
+    {
+      "name": "CSS",
+      "imgSrc": "./assets/icones/file_type_css_icon_130661.png",
+      "alt": "CSS logo",
+      "class": "skills-logo css-logo",
+      "title": "CSS"
+    },
+    {
+      "name": "JavaScript",
+      "imgSrc": "./assets/icones/file_type_js_official_icon_130509.png",
+      "alt": "JavaScript logo",
+      "class": "skills-logo js-logo",
+      "title": "JavaScript"
+    },
+    {
+      "name": "React",
+      "imgSrc": "./assets/icones/react_original_logo_icon_146374.png",
+      "alt": "React logo",
+      "class": "skills-logo react-logo",
+      "title": "React"
+    },
+    {
+      "name": "NodeJS",
+      "imgSrc": "./assets/icones/file_type_node_icon_130301.png",
+      "alt": "NodeJs logo",
+      "class": "skills-logo nodejs-logo",
+      "title": "NodeJS"
+    },
+    {
+      "name": "WordPress",
+      "imgSrc": "./assets/icones/wordpress-logo-of-a-letter-in-a-circle_icon-icons.com_57050.png",
+      "alt": "WordPress logo",
+      "class": "skills-logo wordpress-logo",
+      "title": "WordPress"
+    },
+    {
+      "name": "NextJS",
+      "imgSrc": "./assets/icones/Nextjs-logo.svg.png",
+      "alt": "Next Js",
+      "class": "skills-logo nextjs",
+      "title": "NextJS"
+    },
+    {
+      "name": "Express",
+      "imgSrc": "./assets/icones/express_original_wordmark_logo_icon_146528.png",
+      "alt": "Express logo",
+      "class": "skills-logo github-logo",
+      "title": "Express"
+    },
+    {
+      "name": "MongoDB",
+      "imgSrc": "./assets/icones/file_type_mongo_icon_130383.png",
+      "alt": "MongoDB logo",
+      "class": "skills-logo mongodb-logo",
+      "title": "MongoDB"
+    },
+    {
+      "name": "C++",
+      "imgSrc": "./assets/icones/ISO_C++_Logo.svg.png",
+      "alt": "C++ logo",
+      "class": "skills-logo c++-logo",
+      "title": "C++"
+    },
+    {
+        "name": "Mobile",
+        "imgSrc": "./assets/icones/smartphone_phone_phone_android_xperia_mobile_2514.png",
+        "alt": "MobileApp logo",
+        "class": "skills-logo mobile-logo",
+        "title": "Mobile"
+      }
+  ]
+  

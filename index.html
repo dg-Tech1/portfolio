@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Gagnon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/styles.css">   
+</head>
+<body>
+    <div class="carousel" id="accueil">
+        <img src="https://source.unsplash.com/random?landscape,mountain" alt="Image 1">
+        <img src="https://source.unsplash.com/random?landscape,stars" alt="Image 2">
+        <img src="https://source.unsplash.com/random?landscape,forest" alt="Image 3">
+        <div class="header">
+            <div class="header-icon">
+                <!-- fontawesome liens -->
+                <a href="https://github.com/dg-Tech1" title="Github" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/david-gagnon-webdevelopper/" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:dgbgn01@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <!-- <img src="./assets/logo/logo.png" alt="Votre Logo" class="logo"> -->
+            <div class="header-nav nav-dropdown">
+                <a href="#accueil">Accueil</a>
+                <a href="#about">A Propos</a>
+                <a href="#competence">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
+        </div>
+
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                                            0 1 0 0 0
+                                            0 0 1 0 0
+                                            0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+    </div>
+    
+
+                                                       <!-- Page A Propos-->
+    <section id="about">                                       
+        <div class="container">
+            <div class="profile">
+                <div class="profile-image">
+                    <h3 class="tag">Innovation par le code</h3>
+                </div>
+                <div class="profile-details">
+                    <h4>Qui suis-je</h4>
+                    <h2>Je suis David, Développeur</h2>
+                    <h2>front-end et Full-Stack</h2>
+                    <p>Je suis un développeur web passionné, spécialisé en SEO et expert en JavaScript, Next.js et React.js. Ma compétence unique réside dans ma capacité à transformer n’importe quel site en une application Android ou iOS.</p><br><p>Formation d’intégrateur web Bac +2 chez OpenClassroom. Au cours de ma formation, j’ai acquis une expertise en technologies front-end et back-end, y compris HTML/CSS, JS, React, Express JS, Node JS, MongoDB et Wordpress.</p><br><p>Je m’efforce de créer des solutions web qui surpassent les attentes de mes clients, en fournissant des produits de haute qualité pour les aider à atteindre leurs objectifs. Vous êtes invités à explorer mon portfolio pour découvrir mon travail. Pour toute question ou discussion sur la façon dont je peux contribuer à votre entreprise, n’hésitez pas à me contacter.</p>
+                    <a href="./assets/images/200-modele-cv-sobre.pdf" download>
+                        <button class="cv-button">Mon C.V</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+                                                   <!-- Page Skills-->                                                                             
+    <section class="Skills" id="competence">
+        <div class="slideshow">
+          <h2><span class="red-line">.</span>Compétences</h2>
+          <div class="skills-container">
+            <div class="skills-carousel">
+              <figure class="skills-slide">
+              </figure>              
+            </div>
+          </div>
+        </div>
+    </section>
+
+                                                   <!-- Page Projets-->
+    <section id="projets">
+        <div id="projectsContainer" class="containerp">
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <h1 class="section-header"><span class="redline">.</span>Contact</h1>
+        <div class="contact-wrapper">
+        <!-- Left contact page --> 
+          <form id="contact-form" class="form-horizontal" role="form"> 
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            </button>
+          </form>
+        <!-- Left contact page --> 
+            <div class="direct-contact-container">
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place"><a href="https://www.google.com/maps/d/viewer?mid=17LGe4ks6LTbjTa_YXn6827cjUvo&hl=en_US&ll=43.693197000000005%2C7.287669000000014&z=18" title="Voir Le Plan" target="_blank">Nice, France</a></span></i></li>
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:07-83-27-07-92" title="Appelez moi">Appelez moi</a></span></i></li>
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:dgbgn01@gmail.com" title="M'envoyer un email">M'envoyer un email</a></span></i></li>
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li><a href="https://github.com/dg-Tech1" target="_blank" class="contact-icon" title="Github">
+                  <i class="fab fa-github" aria-hidden="true" title="Github"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/david-gagnon-webdevelopper/" target="_blank" class="contact-icon" title="LinkedIn">
+                  <i class="fab fa-linkedin"></i></a>
+                </li>
+                <li><a href="mailto:dgbgn01@gmail.com" target="_blank" class="contact-icon" title="Email">
+                  <i class="fas fa-envelope"></i></a>
+                </li>
+                <li><a href="/assets/images/200-modele-cv-sobre.pdf" target="_blank" class="contact-icon" title="Download">
+                  <i class="fas fa-download"></i></a>
+                </li>       
+              </ul>              
+              <hr>
+      
+              <div class="copyright">© ALL OF THE RIGHTS RESERVED <br><br> DAVID GAGNON WEB DEVELOPPER <br><br>
+                JAVASCRIPT | REACT | HTML_CSS
+              </div>
+            </div>
+        </div>
+      </section>
+
+
+                                               
+    <script src="./js/keyboard.js"></script>
+    <script src="./js/skills.js"></script>
+    <script src="/js/project.js"></script>
+    <script src="./js/contact.js"></script>
+
+
+</body>
+</html>
