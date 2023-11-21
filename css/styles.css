@@ -614,7 +614,7 @@ section.Skills h2 {
 
   .card {
     width: 80%; /* Ajustez la largeur pour les petits écrans */
-    height: auto;
+    height: 450px;
   }
 }
 
