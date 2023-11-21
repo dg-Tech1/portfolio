@@ -1,75 +1,74 @@
 [
-    {
-      "title": "Booki",
-      "imageSrc": "https://source.unsplash.com/random/?sig=1",
-      "links": {
-        "website": "https://dg-tech1.github.io/bookiprojet3/",
-        "github": "https://github.com/dg-Tech1/bookiprojet3"
-      },
-      "description": "Trouver des hébergements et des activités dans n’importe quelle ville. En tant que développeur, j'ai construit l'interface de l'agent, tant pour pc de bureaux que mobile entièrement responsive. HTML CSS"
+  {
+    "title": "Booki",
+    "imageSrc": "./assets/images/Screenshot 2023-10-27 at 13-10-09 Booki - Réservation Pour Vancaces_1.webp",
+    "links": {
+      "website": "https://dg-tech1.github.io/bookiprojet3/",
+      "github": "https://github.com/dg-Tech1/bookiprojet3"
     },
-    {
-      "title": "oh my food",
-      "imageSrc": "https://source.unsplash.com/random/?sig=2",
-      "links": {
-        "website": "https://dg-tech1.github.io/ohmyfoodp4/index.html",
-        "github": "https://github.com/dg-Tech1/ohmyfoodp4"
-      },
-      "description": "Répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. HTML CSS"
+    "description": "Trouver des hébergements et des activités dans n’importe quelle ville. En tant que développeur, j'ai construit l'interface de l'agent, tant pour pc de bureaux que mobile entièrement responsive. HTML CSS"
+  },
+  {
+    "title": "oh my food",
+    "imageSrc": "./assets/images/Screenshot 2023-10-27 at 20-49-09 OhMyFoood - Restaurant_5_11zon.webp",
+    "links": {
+      "website": "https://dg-tech1.github.io/ohmyfoodp4/index.html",
+      "github": "https://github.com/dg-Tech1/ohmyfoodp4"
     },
-    {
-      "title": "Print It",
-      "imageSrc": "https://source.unsplash.com/random/?sig=3",
-      "links": {
-        "website": "https://dg-tech1.github.io/Print-it-JS-P5/",
-        "github": "https://github.com/dg-Tech1/Print-it-JS-P5"
-      },
-      "description": "Front-end en freelance, avec pour mission une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. Réalisation d'un Carousel en JavaScript. CSS JavaScript"
+    "description": "Répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. HTML CSS"
+  },
+  {
+    "title": "Kasa",
+    "imageSrc": "./assets/images/Kasaimageonline-co-gifimage (1).gif",
+    "links": {
+      "website": "https://kasa-ocr-p8.vercel.app/",
+      "github": "https://github.com/dg-Tech1/kasa-ocr-p8"
     },
-    {
-      "title": "sophie buel",
-      "imageSrc": "https://source.unsplash.com/random/?sig=4",
-      "links": {
-        "website": "https://source.unsplash.com/random/?sig=4",
-        "github": "https://github.com/dg-Tech1/SophieBuelP6"
-      },
-      "description": "J'ai travaillé sur la conception du site d’une architecte d’intérieure. L'utilisateur doit pouvoir se connecter avec les identifiants, et la possibilité de modifier/ajouter des éléments. CSS JavaScript"
+    "description": "Kasa, spécialiste de la location d’appartements entre particuliers. En tant que développeur front-end freelance, j'ai conçu la plateforme web en React, une bibliothèque JavaScript. Voir les liens! React CSS"
+  },
+  {
+    "title": "sophie buel",
+    "imageSrc": "./assets/images/AnyConv.com__Screenshot 2023-11-20 at 22-31-37 Sophie Bluel - Architecte d'intérieur.webp",
+    "links": {
+      "website": "https://www.figma.com/file/69gAtj0eH9MixlXnI8sArw/OUTDATED-Sophie-Bluel---Desktop?type=design&node-id=0-1&mode=design",
+      "github": "https://github.com/dg-Tech1/SophieBuelP6"
     },
-    {
-      "title": "kasa",
-      "imageSrc": "https://source.unsplash.com/random/?sig=5",
-      "links": {
-        "website": "https://kasa-ocr-p8.vercel.app/",
-        "github": "https://github.com/dg-Tech1/kasa-ocr-p8"
-      },
-      "description": "Kasa, spécialiste de la location d’appartements entre particuliers. En tant que développeur front-end freelance, j'ai conçu la plateforme web en React, une bibliothèque JavaScript. Voir les liens! React CSS"
+    "description": "J'ai travaillé sur la conception du site d’une architecte d’intérieure. L'utilisateur doit pouvoir se connecter avec les identifiants, et la possibilité de modifier/ajouter des éléments. CSS JavaScript"
+  },
+  {
+    "title": "Print It",
+    "imageSrc": "./assets/images/Screenshot 2023-10-27 at 17-31-43 Print it ! - Impressions d'entreprise_2_11zon.webp",
+    "links": {
+      "website": "https://dg-tech1.github.io/Print-it-JS-P5/",
+      "github": "https://github.com/dg-Tech1/Print-it-JS-P5"
     },
-    {
-      "title": "nina carducci",
-      "imageSrc": "https://source.unsplash.com/random/?sig=6",
-      "links": {
-        "website": "https://dg-tech1.github.io/nina-carducci-p9/",
-        "github": "https://github.com/dg-Tech1/nina-carducci-p9"
-      },
-      "description": "Portfolio d'une photographe professionnelle, j'ai optimisé le site tout en le rendant plus performant et accessible, sans oublier un meilleur référencement. + visiteurs sur le site web! HTML CSS"
+    "description": "Front-end en freelance, avec pour mission une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. Réalisation d'un Carousel en JavaScript. CSS JavaScript"
+  },
+  {
+    "title": "nina carducci",
+    "imageSrc": "./assets/images/Screenshot 2023-10-27 at 17-38-09 Nina Carducci - Photographe Professionnelle- Portrait et Événementiel_4.webp",
+    "links": {
+      "website": "https://dg-tech1.github.io/nina-carducci-p9/",
+      "github": "https://github.com/dg-Tech1/nina-carducci-p9"
     },
-    {
-      "title": "argent bank",
-      "imageSrc": "https://source.unsplash.com/random/?sig=7",
-      "links": {
-        "website": "https://source.unsplash.com/random/?sig=7",
-        "github": "https://github.com/dg-Tech1/ArgentBank_P11"
-      },
-      "description": "Conception d'une app bancaire avec accueil, une interface utilisateur où l'on peut se connecter de manière sécurisée pour accéder à ses données et transactions, possibilité de modifier pseudos, et nommer les transactions. React HTML CSS Redux"
+    "description": "Portfolio d'une photographe professionnelle, j'ai optimisé le site tout en le rendant plus performant et accessible, sans oublier un meilleur référencement. + visiteurs sur le site web! HTML CSS"
+  },
+  {
+    "title": "argent bank",
+    "imageSrc": "./assets/images/ArgentBankimageonline-co-gifimage (3).gif",
+    "links": {
+      "website": "https://github.com/dg-Tech1/ArgentBank_P11",
+      "github": "https://github.com/dg-Tech1/ArgentBank_P11"
     },
-    {
-      "title": "tic tac toe",
-      "imageSrc": "https://source.unsplash.com/random/?sig=7",
-      "links": {
-        "website": "https://source.unsplash.com/random/?sig=7",
-        "github": "https://github.com/dg-Tech1"
-      },
-      "description": "Répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. HTML CSS"
-    }
-  ]
-  
+    "description": "Conception d'une app bancaire avec accueil, une interface utilisateur où l'on peut se connecter de manière sécurisée pour accéder à ses données et transactions, possibilité de modifier pseudos, et nommer les transactions. React HTML CSS Redux"
+  },
+  {
+    "title": "tic tac toe",
+    "imageSrc": "https://source.unsplash.com/random/?sig=7",
+    "links": {
+      "website": "https://source.unsplash.com/random/?sig=7",
+      "github": "https://github.com/dg-Tech1"
+    },
+    "description": "Répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. HTML CSS"
+  }
+]
