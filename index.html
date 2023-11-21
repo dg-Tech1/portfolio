@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/styles.css">   
 </head>
 <body>
@@ -16,14 +17,14 @@
         <img src="https://source.unsplash.com/random?landscape,stars" alt="Image 2">
         <img src="https://source.unsplash.com/random?landscape,forest" alt="Image 3">
         <div class="header">
-            <div class="header-icon">
+            <div class="header-icon  animate-on-scroll">
                 <!-- fontawesome liens -->
                 <a href="https://github.com/dg-Tech1" title="Github" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/david-gagnon-webdevelopper/" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="mailto:dgbgn01@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
             </div>
             <!-- <img src="./assets/logo/logo.png" alt="Votre Logo" class="logo"> -->
-            <div class="header-nav nav-dropdown">
+            <div class="header-nav nav-dropdown  animate-on-scroll">
                 <a href="#accueil">Accueil</a>
                 <a href="#about">A Propos</a>
                 <a href="#competence">Compétences</a>
@@ -36,14 +37,14 @@
             <span id="text2"></span>
         </div>
 
-        <svg id="filters">
-            <defs>
-                <filter id="threshold">
+        <svg id="filters"> <!--SVG (Scalable Vector Graphics), qui est un format d’image basé sur XML pour les graphiques vectoriels-->
+            <defs><!--conteneur pour les définitions d’éléments réutilisables-->
+                <filter id="threshold"><!--Les filtres SVG sont utilisés pour modifier les éléments graphiques ou les images-->
                     <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
-                                            0 1 0 0 0
+                                            0 1 0 0 0                 
                                             0 0 1 0 0
                                             0 0 0 255 -140" />
-                </filter>
+                </filter>      <!--S'adapte à la luminosité-->     
             </defs>
         </svg>
     </div>
@@ -53,16 +54,16 @@
     <section id="about">                                       
         <div class="container">
             <div class="profile">
-                <div class="profile-image">
+                <div class="profile-image  animate-on-scroll">
                     <h3 class="tag">Innovation par le code</h3>
                 </div>
-                <div class="profile-details">
+                <div class="profile-details  animate-on-scroll">
                     <h4>Qui suis-je</h4>
                     <h2>Je suis David, Développeur</h2>
                     <h2>front-end et Full-Stack</h2>
                     <p>Je suis un développeur web passionné, spécialisé en SEO et expert en JavaScript, Next.js et React.js. Ma compétence unique réside dans ma capacité à transformer n’importe quel site en une application Android ou iOS.</p><br><p>Formation d’intégrateur web Bac +2 chez OpenClassroom. Au cours de ma formation, j’ai acquis une expertise en technologies front-end et back-end, y compris HTML/CSS, JS, React, Express JS, Node JS, MongoDB et Wordpress.</p><br><p>Je m’efforce de créer des solutions web qui surpassent les attentes de mes clients, en fournissant des produits de haute qualité pour les aider à atteindre leurs objectifs. Vous êtes invités à explorer mon portfolio pour découvrir mon travail. Pour toute question ou discussion sur la façon dont je peux contribuer à votre entreprise, n’hésitez pas à me contacter.</p>
                     <a href="./assets/images/200-modele-cv-sobre.pdf" download>
-                        <button class="cv-button">Mon C.V</button>
+                        <button class="cv-button animate-on-scroll">Mon C.V</button>
                     </a>
                 </div>
             </div>
@@ -75,7 +76,7 @@
           <h2><span class="red-line">.</span>Compétences</h2>
           <div class="skills-container">
             <div class="skills-carousel">
-              <figure class="skills-slide">
+              <figure class="skills-slidel">
               </figure>              
             </div>
           </div>
@@ -84,13 +85,13 @@
 
                                                    <!-- Page Projets-->
     <section id="projets">
-        <div id="projectsContainer" class="containerp">
+        <div id="projectsContainer" class="containerp  animate-on-scroll">
         </div>
     </section>
 
 
 
-    <section id="contact">
+    <section id="contact" class="animate-on-scroll">
         <h1 class="section-header"><span class="redline">.</span>Contact</h1>
         <div class="contact-wrapper">
         <!-- Left contact page --> 
@@ -146,6 +147,7 @@
     <script src="./js/skills.js"></script>
     <script src="./js/project.js"></script>
     <script src="./js/contact.js"></script>
+    <script src="./js/fadeinup.js"></script>
 
 
 </body>
