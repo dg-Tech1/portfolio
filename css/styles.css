@@ -613,7 +613,7 @@ section.Skills h2 {
   }
 
   .card {
-    width: 80%; /* Ajustez la largeur pour les petits écrans */
+    width: 50%; /* Ajustez la largeur pour les petits écrans */
     height: 450px;
   }
 }
